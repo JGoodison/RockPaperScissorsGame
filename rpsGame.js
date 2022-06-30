@@ -3,7 +3,6 @@ function computerPlay(){
     let random = Math.floor(Math.random() * rps.length);
     return rps[random];
 }
-// console.log(computerPlay());
 
 let playerScore = 0; 
 let playRound = (playerSelection, computerSelection) =>{
